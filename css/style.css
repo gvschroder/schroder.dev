@@ -1,0 +1,101 @@
+
+body {
+/*	background: #F2E9E4;*/
+	/* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #ef32d9, #89fffd);*/
+	/* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to left, #ef32d9, #89fffd);*/
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	margin-top:100px;
+}
+
+h1, h2, h3, h4, h5{
+	color:#4A4E69 !important;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p, li {
+	color: #4A4E69;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+.profile-pic {
+	box-shadow: 0px 4px 6px 2px lightgrey;
+	border-radius: 50%
+}
+
+.m-t-1 {
+	margin-top:1em;
+}
+
+.p-t-1 {
+	padding-top:1em;
+}
+
+
+.about-me {
+	margin-top:25px;
+}
+
+nav {
+	display: flex;
+}
+
+.navbar-default {
+	background-color: #93ca44;
+	border: none;
+	border-radius:0;
+}
+
+.navbar-text a.navbar-link {
+	color:white;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.row-grey {
+	background-color: #e2e2e2;
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	padding: 65px 10px;
+}
+
+.row-white {
+	/*background-color: lightgrey;*/
+	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
+	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
+	padding: 65px 10px;
+}
+
+.row-footer {
+/*	background-color: lightgrey;
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
+	padding: 65px 10px;
+}
+
+.work-item-row {
+	/*padding: 10% 0;*/
+}
+
+.row-tools {
+  padding: 50px 0;
+}
+
+#social { margin: 30px 0 0; }
+#social li { margin: 0px; display: inline-block;}
+#social li a { position: relative; width: 44px; height: 44px; line-height: 44px; display: block; text-align: center; box-shadow: 0 0 0 2px #FFFFFF; border-radius: 50%; font-size: 20px; transition: .5s; overflow: hidden;}
+#social li a:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; transition: .5s; background-color: #FFFFFF; z-index: -1; transform: rotate(-45deg) scaleX(0);}
+#social li a:hover:before { transform: rotate(-45deg) scaleX(1); }
+#social li a svg { color: #2e6da4; padding: 8px; height: 44px;  width: 44px; }
+#social li a svg:hover { color: #003459; }
